@@ -1,4 +1,4 @@
-#Objects in Javascript#
+*Objects in Javascript*
 
 Objects, in JavaScript, are the most important data type and form the building blocks for modern JavaScript. These objects are quite different from JavaScript’s primitive data types (Number, String, Boolean, null, undefined, and symbol) in the sense that these primitive data types all store a single value each (depending on their types).
 
@@ -30,6 +30,7 @@ school.displayInfo();
 An object can be created with figure brackets {…} with an optional list of properties. A property is a “key: value” pair, where a key is a string (also called a “property name”), and the value can be anything.
 
 ##Accessing Object Members##
+
 ###dot notation###
 Object members(properties or methods) can be accessed using the dot notation
 
@@ -51,9 +52,8 @@ console.log(school.name);
  
 console.log(school.established);
 
-`
-
 ###Bracket Notation###
+
 Syntax:
  **objectName["memberName"]**
 Example: Below is the example of Bracket Notation.
